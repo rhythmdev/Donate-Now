@@ -151,4 +151,53 @@ body {
   color: #707070;
   margin-top: 1em;
 }
+.donate-card-container {
+  width: 100%;
+  flex-wrap: wrap;
+
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5.5em;
+}
+.card {
+  min-width: 360px;
+  min-height: 352px;
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+  padding: 30px 20px;
+}
+.card img {
+  width: 58.13px;
+  height: 49.77px;
+}
+.card-details {
+  width: 315px;
+  height: 153px;
+  padding: 10px;
+}
+.card-details h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #121212;
+  margin-top: 0.8em;
+}
+.card-details p {
+  width: 315px;
+  height: 101px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+  margin-top: 0.8em;
+}
+#card-2 {
+  background: rgba(255, 89, 89, 0.1);
+  box-shadow: 0px 15px 12px 3px rgba(250, 215, 215, 0.75);
+}
+#card-3 {
+  background: #fff4d6;
+}
 /* end of our donate plan area */
